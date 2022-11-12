@@ -1,0 +1,8 @@
+CREATE TABLE employee(
+	id CHAR(36),
+    username VARCHAR(30) CHARACTER SET UTF8MB4 COLLATE UTF8MB4_BIN NOT NULL UNIQUE,
+    password VARCHAR(56) NOT NULL,
+    
+    CONSTRAINT prkey_employee_id PRIMARY KEY(id)
+)
+
