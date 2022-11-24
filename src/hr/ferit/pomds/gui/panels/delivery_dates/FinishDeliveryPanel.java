@@ -21,13 +21,13 @@ import javax.swing.SwingWorker;
 import javax.swing.event.ChangeEvent;
 import javax.swing.event.ChangeListener;
 
+import hr.ferit.pomds.db.DeliveryDatabaseOperations;
+import hr.ferit.pomds.db.UserDatabaseOperations;
 import hr.ferit.pomds.gui.frames.DeliveriesManagementFrame;
 import hr.ferit.pomds.gui.frames.HomeFrame;
 import hr.ferit.pomds.utils.ComponentDecorator;
 import hr.ferit.pomds.utils.DeliveryState;
 import hr.ferit.pomds.utils.WindowSizeChecker;
-import hr.ferit.pomds.utils.db.DeliveryDatabaseOperations;
-import hr.ferit.pomds.utils.db.UserDatabaseOperations;
 
 public class FinishDeliveryPanel extends DeliveryDateChangePanel {
 

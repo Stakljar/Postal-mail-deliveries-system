@@ -26,6 +26,8 @@ import javax.swing.Timer;
 
 import hr.ferit.pomds.data.Delivery;
 import hr.ferit.pomds.data.ServiceUser;
+import hr.ferit.pomds.db.DeliveryDatabaseOperations;
+import hr.ferit.pomds.db.UserDatabaseOperations;
 import hr.ferit.pomds.gui.dialogues.DefaultDialog;
 import hr.ferit.pomds.gui.dialogues.ServiceUserProfileDialog;
 import hr.ferit.pomds.gui.panels.NewDeliveryPanel;
@@ -36,8 +38,6 @@ import hr.ferit.pomds.gui.panels.service_user_information.ServiceUserProfilePane
 import hr.ferit.pomds.utils.ComponentDecorator;
 import hr.ferit.pomds.utils.UserType;
 import hr.ferit.pomds.utils.WindowSizeChecker;
-import hr.ferit.pomds.utils.db.DeliveryDatabaseOperations;
-import hr.ferit.pomds.utils.db.UserDatabaseOperations;
 
 public class ServiceUserFrame extends DefaultFrame {
 	

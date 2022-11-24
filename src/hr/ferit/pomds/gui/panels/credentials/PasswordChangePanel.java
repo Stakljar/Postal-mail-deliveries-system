@@ -19,12 +19,12 @@ import javax.swing.JPasswordField;
 import javax.swing.SwingUtilities;
 import javax.swing.SwingWorker;
 
+import hr.ferit.pomds.db.UserDatabaseOperations;
 import hr.ferit.pomds.gui.frames.HomeFrame;
 import hr.ferit.pomds.utils.ComponentDecorator;
 import hr.ferit.pomds.utils.ConfiguredListeners;
 import hr.ferit.pomds.utils.UserType;
 import hr.ferit.pomds.utils.WindowSizeChecker;
-import hr.ferit.pomds.utils.db.UserDatabaseOperations;
 
 public class PasswordChangePanel extends JPanel {
 

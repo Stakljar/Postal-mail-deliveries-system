@@ -1,4 +1,4 @@
-package hr.ferit.pomds.utils.db;
+package hr.ferit.pomds.db;
 
 import java.sql.Connection;
 import java.sql.PreparedStatement;

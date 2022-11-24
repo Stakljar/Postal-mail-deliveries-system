@@ -16,6 +16,8 @@ import javax.swing.SwingUtilities;
 import javax.swing.SwingWorker;
 
 import hr.ferit.pomds.data.Delivery;
+import hr.ferit.pomds.db.DeliveryDatabaseOperations;
+import hr.ferit.pomds.db.UserDatabaseOperations;
 import hr.ferit.pomds.gui.dialogues.DefaultDialog;
 import hr.ferit.pomds.gui.frames.DeliveriesManagementFrame;
 import hr.ferit.pomds.gui.frames.HomeFrame;
@@ -23,8 +25,6 @@ import hr.ferit.pomds.gui.panels.delivery_dates.AcceptDeliveryPanel;
 import hr.ferit.pomds.utils.ComponentDecorator;
 import hr.ferit.pomds.utils.DeliveryState;
 import hr.ferit.pomds.utils.WindowSizeChecker;
-import hr.ferit.pomds.utils.db.DeliveryDatabaseOperations;
-import hr.ferit.pomds.utils.db.UserDatabaseOperations;
 
 public class PendingDeliveryPanel extends DeliveryPanel {
 

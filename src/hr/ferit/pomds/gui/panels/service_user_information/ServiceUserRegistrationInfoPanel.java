@@ -19,13 +19,13 @@ import javax.swing.SwingUtilities;
 import javax.swing.SwingWorker;
 
 import hr.ferit.pomds.data.Town;
+import hr.ferit.pomds.db.UserDatabaseOperations;
 import hr.ferit.pomds.gui.dialogues.DefaultDialog;
 import hr.ferit.pomds.gui.frames.ServiceUserFrame;
 import hr.ferit.pomds.gui.panels.credentials.RegistrationPanel;
 import hr.ferit.pomds.utils.ComponentDecorator;
 import hr.ferit.pomds.utils.ConfiguredListeners;
 import hr.ferit.pomds.utils.WindowSizeChecker;
-import hr.ferit.pomds.utils.db.UserDatabaseOperations;
 import hr.ferit.pomds.utils.format_check.EmptySpaceChecker;
 import hr.ferit.pomds.utils.format_check.FormatChecker;
 import hr.ferit.pomds.utils.format_check.LimitChecker;

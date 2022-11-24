@@ -20,8 +20,8 @@ import javax.swing.SwingWorker;
 
 import hr.ferit.pomds.data.Country;
 import hr.ferit.pomds.data.Town;
+import hr.ferit.pomds.db.UserDatabaseOperations;
 import hr.ferit.pomds.utils.ComponentDecorator;
-import hr.ferit.pomds.utils.db.UserDatabaseOperations;
 
 public abstract class ServiceUserInfoPanel extends JPanel {
 

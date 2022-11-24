@@ -6,10 +6,10 @@ import javax.swing.SwingUtilities;
 import javax.swing.UIManager;
 import javax.swing.UnsupportedLookAndFeelException;
 
+import hr.ferit.pomds.db.DatabaseConnectionSetup;
 import hr.ferit.pomds.gui.frames.HomeFrame;
 import hr.ferit.pomds.utils.ComponentDecorator;
 import hr.ferit.pomds.utils.WindowSizeChecker;
-import hr.ferit.pomds.utils.db.DatabaseConnectionSetup;
 
 public class Initializer {
 

@@ -37,12 +37,12 @@ import javax.swing.table.DefaultTableModel;
 import javax.swing.table.TableCellRenderer;
 
 import hr.ferit.pomds.data.Delivery;
+import hr.ferit.pomds.db.DeliveryDatabaseOperations;
+import hr.ferit.pomds.db.UserDatabaseOperations;
 import hr.ferit.pomds.utils.AdaptedDateFormat;
 import hr.ferit.pomds.utils.ComponentDecorator;
 import hr.ferit.pomds.utils.DeliveryState;
 import hr.ferit.pomds.utils.WindowSizeChecker;
-import hr.ferit.pomds.utils.db.DeliveryDatabaseOperations;
-import hr.ferit.pomds.utils.db.UserDatabaseOperations;
 
 public class FinishedDeliveriesFrame extends DefaultFrame {
 

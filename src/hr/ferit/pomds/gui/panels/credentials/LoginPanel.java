@@ -9,6 +9,7 @@ import javax.swing.JOptionPane;
 import javax.swing.SwingUtilities;
 import javax.swing.SwingWorker;
 
+import hr.ferit.pomds.db.UserDatabaseOperations;
 import hr.ferit.pomds.gui.frames.DeliveriesManagementFrame;
 import hr.ferit.pomds.gui.frames.EmployeesManagementFrame;
 import hr.ferit.pomds.gui.frames.ServiceUserFrame;
@@ -16,7 +17,6 @@ import hr.ferit.pomds.utils.ComponentDecorator;
 import hr.ferit.pomds.utils.ConfiguredListeners;
 import hr.ferit.pomds.utils.UserType;
 import hr.ferit.pomds.utils.WindowSizeChecker;
-import hr.ferit.pomds.utils.db.UserDatabaseOperations;
 
 public class LoginPanel extends CredentialsInsertPanel {
 

@@ -25,6 +25,7 @@ import javax.swing.SwingWorker;
 import javax.swing.Timer;
 
 import hr.ferit.pomds.data.Employee;
+import hr.ferit.pomds.db.UserDatabaseOperations;
 import hr.ferit.pomds.gui.dialogues.DefaultDialog;
 import hr.ferit.pomds.gui.panels.credentials.NewEmployeePanel;
 import hr.ferit.pomds.gui.panels.credentials.PasswordChangePanel;
@@ -32,7 +33,6 @@ import hr.ferit.pomds.gui.panels.scrollable.EmployeesSequencePanel;
 import hr.ferit.pomds.utils.ComponentDecorator;
 import hr.ferit.pomds.utils.UserType;
 import hr.ferit.pomds.utils.WindowSizeChecker;
-import hr.ferit.pomds.utils.db.UserDatabaseOperations;
 
 public class EmployeesManagementFrame extends DefaultFrame {
 

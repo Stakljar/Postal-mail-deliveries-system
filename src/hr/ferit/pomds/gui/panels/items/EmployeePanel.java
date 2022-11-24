@@ -22,6 +22,7 @@ import javax.swing.SwingUtilities;
 import javax.swing.SwingWorker;
 
 import hr.ferit.pomds.data.Employee;
+import hr.ferit.pomds.db.UserDatabaseOperations;
 import hr.ferit.pomds.gui.dialogues.DefaultDialog;
 import hr.ferit.pomds.gui.frames.EmployeesManagementFrame;
 import hr.ferit.pomds.gui.frames.HomeFrame;
@@ -29,7 +30,6 @@ import hr.ferit.pomds.gui.panels.credentials.EditEmployeeUsernamePanel;
 import hr.ferit.pomds.utils.ComponentDecorator;
 import hr.ferit.pomds.utils.ConfiguredListeners;
 import hr.ferit.pomds.utils.WindowSizeChecker;
-import hr.ferit.pomds.utils.db.UserDatabaseOperations;
 
 public class EmployeePanel extends JPanel {
 

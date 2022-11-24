@@ -27,6 +27,7 @@ import javax.swing.event.ChangeEvent;
 import javax.swing.event.ChangeListener;
 
 import hr.ferit.pomds.data.Delivery;
+import hr.ferit.pomds.db.DeliveryDatabaseOperations;
 import hr.ferit.pomds.gui.dialogues.DefaultDialog;
 import hr.ferit.pomds.gui.panels.ActivityPanel;
 import hr.ferit.pomds.gui.panels.credentials.PasswordChangePanel;
@@ -36,7 +37,6 @@ import hr.ferit.pomds.utils.ComponentDecorator;
 import hr.ferit.pomds.utils.DeliveryState;
 import hr.ferit.pomds.utils.UserType;
 import hr.ferit.pomds.utils.WindowSizeChecker;
-import hr.ferit.pomds.utils.db.DeliveryDatabaseOperations;
 
 public class DeliveriesManagementFrame extends DefaultFrame {
 
