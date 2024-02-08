@@ -49,7 +49,7 @@ public class HomePanel extends JPanel {
 		loginButton = new JButton("Prijava");
 		title = new JLabel("<html><div style='text-align: center'>Sustav<br>dostava<br>poštanskih<br>pošiljki</div></html>");
 		info = new JLabel("<html><div style='text-align: center'>Napravio: Dražen Antunović<br>Kontakt: drazenantunovic012@gmail.com"
-		  		+ "<br><u>https://www.github.com/Entiox</u></div></html>");
+		  		+ "<br><u>https://www.github.com/Stakljar</u></div></html>");
 		try {
 			image = ImageIO.read(new File(filePath));
 		} catch (IOException e) {}
